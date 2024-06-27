@@ -211,7 +211,7 @@ main #about-us {
     min-height: 370px;
     padding: 10px;
     color: #ffffff;
-    background-image: url('/atum/images/about-us-bg.png');
+    background-image: url('/AtumTheCreator/images/about-us-bg.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -410,7 +410,7 @@ main #about-us {
 .contact {
     width: 100%;
     min-height: 350px;
-    background-image: url('/atum/images/contact-us-bg-1.jpg');
+    background-image: url('/AtumTheCreator/images/contact-us-bg-1.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
