@@ -1,0 +1,905 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.testBody {
+    width: 100%;
+}
+
+.testContentContainer {
+    width: 90%;
+    padding: 20px 0 20px;
+    margin: 110px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.testH1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testGrid {
+    width: 60%;
+    min-height: 350px;
+    margin: 60px auto;
+    padding: 20px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    color: #000;
+}
+
+.testH3 {
+    margin-top: 45px;
+}
+
+.testP {
+    font-weight: 1;
+}
+
+.testButton {
+    width: 150px;
+    height: 50px;
+    margin: -10px auto;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #4C9F7C;
+    font-size: 0.9em;
+    text-align: center;
+    align-content: center;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(000, 000, 000, 0.5);
+    z-index: 99;
+}
+
+header .logo-container h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+header nav .openMenu {
+    display: none;
+}
+
+header nav .mainMenu {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .mainMenu li a {
+    padding-right: 50px;
+    color: rgb(223, 223, 223);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header nav .mainMenu li a:hover {
+    padding-right: 50px;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header nav .mainMenu .closeMenu {
+    display: none;
+}
+
+main #hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#video-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+main #hero .hero-text-container {
+    width: 65%;
+    min-height: 250px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main #hero h1 {
+   font-size: 2.3em;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+}
+
+main #hero #hero-hr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main #hero p {
+    width: 72%;
+    font-size: 1.01em;
+    margin: 5px auto;
+    color: rgb(223, 223, 223);
+}
+
+main #hero .heroBtn .heroBtn1 {
+    width: 80px;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 5px auto;
+    background-color: rgb(255, 44, 44);
+    color: white;
+    font-size: 0.80em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main #hero .heroBtn .heroBtn2 {
+    width: 80px;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 5px auto;
+    background-color: white;
+    color: rgb(255, 44, 44);
+    font-size: 0.80em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main #hero .heroBtn1:hover {
+    color: rgb(255, 44, 44);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+main #hero .heroBtn2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 44, 44);
+    transition: 0.5s;
+}
+
+main #about-us {
+    width: 100%;
+    min-height: 370px;
+    padding: 10px;
+    color: #ffffff;
+    background-image: url('/atum/images/about-us-bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#about-us .about-us-text-container {
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-us .about-us-text-container h4 {
+    width: 50%;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 01);
+}
+
+#about-us .about-us-text-container h2 {
+    width: 95%;
+    margin: 20px auto;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 01);
+}
+
+#about-us .about-us-text-container #welcome-hr {
+    width: 28vw;
+    margin: -19px auto;
+}
+
+#about-us .about-us-text-container p {
+    width: 75%;
+    font-size: 1.1em;
+    line-height: 1.08em;
+    margin: 40px auto;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(117, 79, 79);
+}
+
+#services {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+}
+
+#services .bg-layer {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: rgba(000, 000, 000, 0.5);
+    position: relative;
+}
+
+#services .bg-layer .services-img-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+}
+
+#services .bg-layer h2 {
+    width: 30%;
+    margin: 30px;
+    font-size: 1.9em;
+    position: relative;
+    top: 20px;
+    color: #e0e0e0;
+}
+
+#services .bg-layer hr {
+    width: 130px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#services .bg-layer p {
+    width: 70%;
+    margin-left: 30px;
+    color: #d4d4d4;
+}
+
+#services .bg-layer .service-grid {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1rem;
+}
+
+#services .bg-layer .service-grid .service {
+    height: 140px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #909090;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+#services .bg-layer .service-grid .service1:hover {
+    background-color: rgb(170, 0, 0);
+}
+
+#services .bg-layer .service-grid .service2:hover {
+    background-color: rgb(191, 89, 0);
+}
+
+#services .bg-layer .service-grid .service3:hover {
+    background-color: rgb(149, 122, 0);
+}
+
+#services .bg-layer .service-grid .service4:hover {
+    background-color: rgb(73, 150, 0);
+}
+
+#services .bg-layer .service-grid .service5:hover {
+    background-color: rgb(0, 154, 111);
+}
+
+#services .bg-layer .service-grid .service6:hover {
+    background-color: rgb(0, 110, 103);
+}
+
+#services .bg-layer .service-grid .service7:hover {
+    background-color: rgb(2, 98, 139);
+}
+
+#services .bg-layer .service-grid .service8:hover {
+    background-color: rgb(17, 0, 169);
+}
+
+#services .bg-layer .service-grid .service9:hover {
+    background-color: rgb(89, 0, 172);
+}
+
+#services .bg-layer .service-grid .service-mbl {
+    display: none;
+}
+
+#services .swiper-container {
+    display: none;
+}
+
+#services .textWrapper {
+    width: 100%;
+    background-color: rgb(255, 208, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#services .textWrapper h3 {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 6rem;
+    animation: moveLeft 8000ms linear infinite;
+    display: inline-block;
+}
+
+@keyframes moveLeft {
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.toggleButton {
+    display: none;
+}
+
+.contact {
+    width: 100%;
+    min-height: 350px;
+    background-image: url('/atum/images/contact-us-bg-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-us-btn {
+    width: 50%;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #000;
+    font-size: 3em;
+    transition: 0.5s;
+}
+
+.contact .contact-us-btn:hover {
+    color: #000;
+    background-color: rgb(244, 244, 244);
+    border: 0.8px solid grey;
+    transition: 0.5s;
+}
+
+#contact-us {
+    width: 100%;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #000;
+}
+
+#contact-us .contact-us-container {
+    height: 70px;
+    margin-bottom: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+#contact-us .contact-us-container .contact-list-1 {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#contact-us .contact-us-container .contact-list-1 li {
+    padding-left: 15px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: #c1c1c1;
+    transition: 0.5s;
+}
+
+#contact-us .contact-us-container .contact-list-1 li a {
+    text-decoration: none;
+    color: #c1c1c1;
+}
+
+#contact-us .contact-us-container .contact-list-1 li .whatsApp {
+    text-decoration: none;
+    color: #c1c1c1;
+    transition: 0.5s;
+}
+
+#contact-us .contact-us-container .contact-list-1 li .whatsApp:hover {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#contact-us .contact-us-container .contact-list-1 li:hover {
+    color: #ffffff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#contact-us .contact-us-container .contact-list-1 .fa-whatsapp {
+    display: none;
+}
+
+#contact-us .contact-us-container .contact-list-1 .fa {
+    display: none;
+}
+
+#contact-us .contact-us-container .contact-list-2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+}
+
+#contact-us .contact-us-container .contact-list-2 li .contact-text{
+    padding-right: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: #c1c1c1;
+    transition: 0.5s;
+}
+
+#contact-us .contact-us-container .contact-list-2 li .contact-text:hover {
+    color: #ffffff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#contact-us .contact-us-atum {
+    width: 100%;
+    height: 385px;
+    font-size: 23rem;
+    padding: 10px;
+}
+
+.contactUsContainer {
+    width: 90%;
+    height: 90vh;
+    margin: 20px auto;
+}
+
+.contactUsContainer .contactUsForm {
+    width: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactUsContainer .contactUsForm .contactUsText {
+    width: 100%;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.contactUsContainer .contactUsForm .contactUsText h2 {
+
+}
+
+.contactUsContainer .contactUsForm .contactUsText p {
+
+}
+
+.contactUsContainer .contactUsForm .input {
+    width: 100%;
+    padding: 20px;
+}
+
+.contactUsContainer .contactUsForm .input .nameAndEmail {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contactUsContainer .contactUsForm .input .nameAndEmail .nameAndEmailInput {
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contactUsContainer .contactUsForm .input .inputPhoneNumber {
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contactUsContainer .contactUsForm .input .inputMsg p {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactUsContainer .contactUsForm .input .inputMsg textarea {
+    width: 40%;
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contactUsContainer .contactUsForm .btn {
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(255, 44, 44);
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .testBody {
+        overflow: hidden;
+    }
+
+    .testGrid {
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    .testH1 {
+        font-size: 2rem;
+        width: 200px;
+        height: 120px;
+        margin: 20px auto;
+    }
+
+    .testButton {
+        margin-top: -20px;
+        
+    }
+
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .logo-container {
+        width: 35%;
+    }
+
+    header .logo-container h2 {
+        width: fit-content;
+        padding: 2px;
+        font-size: 1.95em;
+        cursor: pointer;
+    }
+
+    header nav .openMenu {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        color: #ffffff;
+        font-size: 1.8em;
+        margin-right: 20px;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    header nav .mainMenu {
+        width: 40%;
+        height: 29%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: rgb(0, 0, 0, 0.9);
+        flex-direction: column;
+        transition: right 1s ease;
+        display: none;
+        border-radius: 2px;
+    }
+
+    header nav .mainMenu .mainLinks {
+        position: absolute;
+        top: 73px;
+    }
+
+    header nav .mainMenu .mainLink-1 {
+        position: absolute;
+        top: 73px;
+        margin-top: 40px;
+    }
+
+    header nav .mainMenu .mainLink-2 {
+        position: absolute;
+        top: 73px;
+        margin-top: 80px;
+    }
+
+    header nav .mainMenu .closeMenu {
+        width: fit-content;
+        display: block;
+        font-size: 2.4em;
+        color: #ffffff;
+        position: absolute;
+        top: 18px;
+        right: 21px;
+    }
+
+    header nav .mainMenu .closeMenu i {
+        overflow: hidden;
+    }
+
+    main #hero {
+        width: 100%;
+        height: 100vh;
+    }
+
+    main #hero .hero-text-container {
+        width: 95%;
+        height: fit-content;
+    }
+
+    main #hero h1 {
+        width: 100%;
+        font-size: 1.5em;
+        padding: 5px;
+    }
+
+    main #hero p {
+        width: 83%;
+        padding: 5px;
+        font-size: 0.82em;
+    }
+
+    #hero .hero-text-container #hero-hr {
+        width: 268px;
+    }
+
+    #about-us .about-us-text-container h4 {
+        font-size: 0.9em;
+        margin-top: 20px;
+    }
+
+    #about-us .about-us-text-container h2 {
+        font-size: 1.09em;
+    }
+
+    #about-us .about-us-text-container #welcome-hr {
+        width: 280px;
+    }
+
+    #about-us .about-us-text-container p {
+        width: 100%;
+        font-size: 1.05em;
+    }
+
+    #services .bg-layer {
+        margin: 0;
+        padding: 0;
+    }
+
+    #services .bg-layer h2 {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    #services .bg-layer hr {
+        width: 102px;
+        margin-top: -10px;
+    }
+
+    #services .bg-layer p {
+        width: 86%;
+        font-size: 0.90em;
+    }
+
+    #services .bg-layer .service-grid {
+        width: 320px;
+    }
+
+    #services .bg-layer .service-grid .service-mbl {
+        display: inline-flex;
+    }
+
+    #services .bg-layer .service-grid .service {
+        height: 70px;
+        font-size: 0.9em;
+        padding: 5px;
+    }
+
+    #services .bg-layer .service-grid .seeMoreService {
+        display: none;
+    }
+
+    #services .bg-layer .service-grid .seeMoreService--show {
+        display: flex;
+    }
+
+    #services .bg-layer .toggleButton {
+        font-size: 0.9em;
+        display: flex;
+        margin: 40px auto;
+        padding: 4px;
+        cursor: pointer;
+        position: relative;
+        bottom: 15px;
+        border-radius: 2px;
+        background-color: #dadada;
+    }
+
+    #services .bg-layer .swiper-container {
+        display: none;
+        width: ;
+        height: 210px;
+        padding: 5px;
+        /* margin: 15px 90px 50px; */
+        /* overflow: hidden; */
+
+        border: 2px solid red;
+    }
+
+    #services .bg-layer .swiper-slide {
+        width: calc(50% - 5px) !important;
+        height: 200px;
+        text-align: center;
+        font-size: 18px;
+        background-color: #ffffff;
+        color: #000;
+        margin-right: 15px !important;
+        border-radius: 10px;
+
+        border: 2px solid yellow;
+    }
+
+    .swiper-slide img {
+        width: 50%;
+        height: 100px;
+        object-fit: cover;
+        position: relative;
+
+        border: 2px solid red;
+    }
+
+    .swiper-slide h5 {
+        position: relative;
+        font-size: 16px;
+
+        border: 2px solid green;
+    }
+
+    .swiper-slide h6 {
+        color: #000;
+        font-size: 12px;
+        
+        border: 2px solid black;
+    }
+
+    .swiper-slide img h6 {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+
+    .contact .contact-us-btn {
+        font-size: 2em;
+        width: 80%;
+    }
+
+    #contact-us {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contact-us .contact-us-container {
+        height: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    #contact-us .contact-us-container .contact-list-1 .contact-text{
+        display: none;
+    }
+
+    #contact-us .contact-us-container .contact-list-1 .fa-whatsapp {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 1.5em;
+        padding-left: 5px;
+        text-decoration: none;
+        color: #c1c1c1;
+    }
+
+    #contact-us .contact-us-container .contact-list-1 .fa-whatsapp:hover {
+        text-decoration: none;
+        color: #c1c1c1;
+    }
+
+    #contact-us .contact-us-container .contact-list-1 .fa-envelope {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 1.5em;
+        padding-left: 5px;
+    }
+
+}
