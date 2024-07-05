@@ -15,9 +15,11 @@ body {
 .testBody {
     width: 100%;
     height: 100vh;
+    margin: 10px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 2px solid yellow;
 }
 
 .testContentContainer {
@@ -35,7 +37,7 @@ body {
 .testGrid {
     width: 60%;
     min-height: 350px;
-    margin: 50px auto 40px auto;
+    margin: 50px auto 20px auto;
     padding: 15px;
     display: flex;
     flex-direction: column;
