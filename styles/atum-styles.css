@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px 5px;
-    overflow: hidden;
+    border: 2px solid red;
 }
 
 .testH1 {
