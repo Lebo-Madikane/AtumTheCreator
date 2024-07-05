@@ -29,12 +29,14 @@ body {
 
 .testH1 {
     text-align: center;
+    min-height: 80px;
+    overflow: hidden;
 }
 
 .testGrid {
     width: 60%;
     min-height: 350px;
-    margin: 90px auto 40px auto;
+    margin: 50px auto 40px auto;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -613,14 +615,6 @@ main #about-us {
 
     .testGrid {
         width: 98%;
-        margin-top: -20px;
-    }
-
-    .testH1 {
-        font-size: 2rem;
-        width: 200px;
-        height: 120px;
-        margin: 20px auto;
     }
 
     header {
