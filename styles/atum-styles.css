@@ -19,14 +19,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid yellow;
 }
 
 .testContentContainer {
     display: flex;
     flex-direction: column;
     padding: 10px 5px;
-    border: 2px solid red;
 }
 
 .testH1 {
