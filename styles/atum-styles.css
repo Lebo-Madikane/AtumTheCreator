@@ -24,7 +24,9 @@ body {
 .testContentContainer {
     display: flex;
     flex-direction: column;
-    padding: 10px 5px;
+    gap: 30px;
+    padding: 5px;
+    border: 2px solid red;
 }
 
 .testH1 {
