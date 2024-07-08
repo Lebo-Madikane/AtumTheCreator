@@ -146,6 +146,10 @@ main #hero .hero-text-container {
     justify-content: space-evenly;
 }
 
+main #hero .hero-text-container-mbl {
+    display: none;
+}
+
 main #hero h1 {
    font-size: 2.3em;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
@@ -651,7 +655,7 @@ main #about-us {
 
     header nav .mainMenu {
         width: 40%;
-        height: 40%;
+        min-height: 200px;
         position: fixed;
         top: 0;
         right: 0;
@@ -702,6 +706,13 @@ main #about-us {
     main #hero .hero-text-container {
         width: 95%;
         height: fit-content;
+        display: none;
+    }
+
+    main #hero .hero-text-container-mbl {
+        width: 95%;
+        height: fit-content;
+        display: inline-block;
     }
 
     main #hero h1 {
@@ -711,13 +722,13 @@ main #about-us {
     }
 
     main #hero p {
-        width: 83%;
+        width: 90%;
         padding: 5px;
-        font-size: 0.82em;
+        font-size: 0.81em;
     }
 
-    #hero .hero-text-container #hero-hr {
-        width: 268px;
+    #hero .hero-text-container-mbl #hero-hr {
+        width: 280px;
     }
 
     #about-us .about-us-text-container h4 {
