@@ -217,7 +217,7 @@ main #about-us {
     padding: 10px;
     color: #ffffff;
     background-image: url('/AtumTheCreator/images/about-us-bg.png');
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,12 +273,12 @@ main #about-us {
     align-items: start;
     position: relative;
     color: #ffffff;
-    z-index: 1;
+    background-color: #000;
     background-image: url('/AtumTheCreator/images/Stars-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid red;
+    border: 2px solid yellow;
 }
 
 #services .bg-layer {
