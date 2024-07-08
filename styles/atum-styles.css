@@ -637,12 +637,14 @@ main #about-us {
     }
 
     header nav .openMenu {
+        height: auto;
         display: flex;
         color: #ffffff;
         font-size: 1.8em;
         margin-right: 20px;
         padding: 5px;
         cursor: pointer;
+        overflow-y: hidden;
         border: 2px solid yellow;
     }
 
