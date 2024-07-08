@@ -651,7 +651,7 @@ main #about-us {
 
     header nav .mainMenu {
         width: 40%;
-        height: 30%;
+        height: 35%;
         position: fixed;
         top: 0;
         right: 0;
@@ -661,8 +661,7 @@ main #about-us {
         transition: right 1s ease;
         display: none;
         border-radius: 2px;
-        overflow: hidden;
-        border: 2px solid yellow;
+        border: 2px solid red;
     }
 
     header nav .mainMenu .mainLinks {
