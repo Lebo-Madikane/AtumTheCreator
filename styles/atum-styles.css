@@ -637,16 +637,19 @@ main #about-us {
     }
 
     header nav .openMenu {
-        height: auto;
         display: flex;
         color: #ffffff;
         font-size: 1.8em;
         margin-right: 20px;
-        padding: 5px;
+        padding: 3px;
         cursor: pointer;
-        overflow-y: hidden;
         border: 2px solid yellow;
     }
+
+    header nav .openMenu .fas {
+        overflow: hidden;
+        border: 2px solid red;
+    } 
 
     header nav .mainMenu {
         width: 40%;
