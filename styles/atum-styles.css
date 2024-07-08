@@ -722,9 +722,9 @@ main #about-us {
     }
 
     main #hero p {
-        width: 90%;
+        width: 100%;
         padding: 5px;
-        font-size: 0.81em;
+        font-size: 0.80em;
     }
 
     #hero .hero-text-container-mbl #hero-hr {
