@@ -643,17 +643,15 @@ main #about-us {
         margin-right: 20px;
         padding: 3px;
         cursor: pointer;
-        border: 2px solid yellow;
     }
 
     header nav .openMenu .fas {
         overflow: hidden;
-        border: 2px solid red;
     } 
 
     header nav .mainMenu {
         width: 40%;
-        height: 29%;
+        height: 30%;
         position: fixed;
         top: 0;
         right: 0;
@@ -663,6 +661,8 @@ main #about-us {
         transition: right 1s ease;
         display: none;
         border-radius: 2px;
+        overflow: hidden;
+        border: 2px solid yellow;
     }
 
     header nav .mainMenu .mainLinks {
