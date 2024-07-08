@@ -274,11 +274,11 @@ main #about-us {
     position: relative;
     color: #ffffff;
     background-color: #000;
-    background-image: url('/AtumTheCreator/images/Stars-bg.jpg');
+    background-image: url('/AtumTheCreator/images/Stars-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid yellow;
+    border: 2px solid blue;
 }
 
 #services .bg-layer {
@@ -420,7 +420,7 @@ main #about-us {
 .contact {
     width: 100%;
     min-height: 350px;
-    background-image: url('/AtumTheCreator/images/contact-us-bg-1.jpg');
+    background-image: url('/AtumTheCreator/images/contact-us-bg-1.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -860,7 +860,19 @@ main #about-us {
         margin-right: 5px;
     }
 
-
+    .contact {
+        width: 100%;
+        min-height: 350px;
+        background-image: url('/AtumTheCreator/images/contact-us-bg-1.jpg');
+        background-attachment: fixed; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .contact .contact-us-btn {
         font-size: 2em;
         width: 80%;
