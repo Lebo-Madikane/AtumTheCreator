@@ -636,14 +636,14 @@ main #about-us {
     }
 
     header nav .openMenu {
-        width: fit-content;
-        height: fit-content;
         display: flex;
         color: #ffffff;
         font-size: 1.8em;
         margin-right: 20px;
         padding: 2px;
         cursor: pointer;
+        overflow: hidden;
+        border: 2px solid red;
     }
 
     header nav .mainMenu {
