@@ -274,6 +274,11 @@ main #about-us {
     position: relative;
     color: #ffffff;
     z-index: 1;
+    background-image: url('/AtumTheCreator/images/Stars-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid red;
 }
 
 #services .bg-layer {
