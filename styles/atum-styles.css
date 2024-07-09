@@ -285,7 +285,6 @@ main #about-us {
     height: auto;
     background-color: rgba(000, 000, 000, 0.5);
     position: relative;
-    border: 2px solid yellow;
 }
 
 #services .bg-layer .services-img-bg {
@@ -295,8 +294,7 @@ main #about-us {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
-    border: 2px solid green;
+    z-index: -5;
 }
 
 #services .bg-layer h2 {
@@ -331,7 +329,6 @@ main #about-us {
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     grid-template-rows: repeat(2, auto);
     grid-gap: 1rem;
-    border: 2px solid red;
 }
 
 #services .bg-layer .service-grid .service {
@@ -785,7 +782,7 @@ main #about-us {
     }
 
     #services .bg-layer .service-grid {
-        width: 320px;
+        width: 300px;
     }
 
     #services .bg-layer .service-grid .service-mbl {
@@ -794,7 +791,7 @@ main #about-us {
 
     #services .bg-layer .service-grid .service {
         height: 70px;
-        font-size: 0.9em;
+        font-size: 0.8em;
         padding: 5px;
     }
 
