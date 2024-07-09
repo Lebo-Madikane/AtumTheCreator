@@ -274,7 +274,7 @@ main #about-us {
     position: relative;
     color: #ffffff;
     background-color: #000;
-    background-image: url('/AtumTheCreator/images/Stars-bg.png');
+    background-image: url('/AtumTheCreator/images/Stars-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -758,7 +758,7 @@ main #about-us {
 
     #about-us .about-us-text-container p {
         width: 100%;
-        font-size: 0.85em;
+        font-size: 0.80em;
         overflow: hidden;
     }
 
