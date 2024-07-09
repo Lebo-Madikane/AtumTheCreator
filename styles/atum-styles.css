@@ -213,11 +213,11 @@ main #hero .heroBtn2:hover {
 
 main #about-us {
     width: 100%;
-    min-height: 370px;
-    padding: 10px;
+    min-height: 390px;
+    padding: 5px;
     color: #ffffff;
     background-image: url('/AtumTheCreator/images/about-us-bg.png');
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -735,9 +735,8 @@ main #about-us {
         width: 260px;
     }
 
-    #about-us {
-        
-       
+    main #about-us {
+        background-attachment: unset;
     }
 
     #about-us .about-us-text-container {
@@ -759,7 +758,8 @@ main #about-us {
 
     #about-us .about-us-text-container p {
         width: 100%;
-        font-size: 0.80em;
+        font-size: 0.85em;
+        overflow: hidden;
     }
 
     #services .bg-layer {
