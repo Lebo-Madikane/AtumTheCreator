@@ -870,7 +870,7 @@ main #about-us {
     .contact {
         width: 100%;
         min-height: 350px;
-        background-image: url('/AtumTheCreator/images/contact-us-bg-1.jpg');
+        background-image: url('/AtumTheCreator/images/contactUsBg.png');
         background-attachment: fixed; 
         background-position: center;
         background-repeat: no-repeat;
