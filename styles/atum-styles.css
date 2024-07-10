@@ -443,7 +443,6 @@ main #about-us {
 
 #contact-us {
     width: 100%;
-    min-height: 190px;
     display: flex;
     flex-direction: column;
     color: #ffffff;
@@ -452,7 +451,7 @@ main #about-us {
 
 #contact-us .contact-us-container {
     height: 70px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     padding: 5px;
     display: flex;
 }
@@ -889,13 +888,12 @@ main #about-us {
     #contact-us {
         width: 100%;
         margin: 0;
-        padding: 0;
-        border: 2px solid yellow;
+        padding: 0px;
     }
 
     #contact-us .contact-us-container {
         height: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         padding: 5px;
     }
 
@@ -941,7 +939,6 @@ main #about-us {
     #contact-us .atum-footer {
         width: 100%;
         object-fit: cover;
-        border: 2px solid red;
     }
 
 }
