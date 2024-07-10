@@ -880,8 +880,9 @@ main #about-us {
     }
     
     .contact .contact-us-btn {
-        font-size: 1.5em;
         width: 70%;
+        height: 95px;
+        font-size: 1.5em;
         background-color: rgb(222, 9, 9);
     }
 
@@ -889,6 +890,7 @@ main #about-us {
         width: 100%;
         margin: 0;
         padding: 0;
+        border: 2px solid yellow;
     }
 
     #contact-us .contact-us-container {
@@ -934,6 +936,12 @@ main #about-us {
         text-decoration: none;
         list-style: none;
         color: #c1c1c1;
+    }
+
+    #contact-us .atum-footer {
+        width: 100%;
+        object-fit: cover;
+        border: 2px solid red;
     }
 
 }
