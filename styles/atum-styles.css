@@ -884,6 +884,7 @@ main #about-us {
     .contact .contact-us-btn {
         font-size: 1.5em;
         width: 70%;
+        background-color: rgb(222, 9, 9);
     }
 
     #contact-us {
