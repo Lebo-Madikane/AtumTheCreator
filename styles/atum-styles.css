@@ -386,11 +386,11 @@ main #about-us {
     padding: 10px;
 }
 
-#services .textWrapper h3 {
+#services .textWrapper h4 {
     color: #000;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-right: 6rem;
+    padding-right: 4rem;
     animation: moveLeft 8000ms linear infinite;
     display: inline-block;
 }
@@ -867,7 +867,7 @@ main #about-us {
 
     .contact {
         width: 100%;
-        min-height: 350px;
+        min-height: 300px;
         background-image: url('/AtumTheCreator/images/contactUsBg-3.jpg');
         background-attachment: fixed; 
         background-position: center;
@@ -880,7 +880,7 @@ main #about-us {
     
     .contact .contact-us-btn {
         width: 70%;
-        height: 95px;
+        height: 80px;
         font-size: 1.5em;
         background-color: rgb(222, 9, 9);
     }
