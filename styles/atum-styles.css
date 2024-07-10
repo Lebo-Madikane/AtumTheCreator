@@ -513,7 +513,7 @@ main #about-us {
 }
 
 #contact-us .contact-us-container .contact-list-2 li .contact-text{
-    padding-right: 25px;
+    padding-right: 40px;
     text-decoration: none;
     list-style: none;
     color: #c1c1c1;
@@ -526,11 +526,9 @@ main #about-us {
     text-decoration: none;
 }
 
-#contact-us .contact-us-atum {
+#contact-us .atum-footer {
     width: 100%;
-    height: 385px;
-    font-size: 23rem;
-    padding: 10px;
+    object-fit: cover;
 }
 
 .contactUsContainer {
@@ -896,7 +894,7 @@ main #about-us {
     #contact-us .contact-us-container {
         height: 50px;
         margin-bottom: 50px;
-        padding: 0;
+        padding: 5px;
     }
 
     #contact-us .contact-us-container .contact-list-1 .contact-text{
@@ -907,7 +905,6 @@ main #about-us {
         display: inline-block;
         overflow: hidden;
         font-size: 1.5em;
-        padding-left: 5px;
         text-decoration: none;
         color: #c1c1c1;
     }
