@@ -763,6 +763,7 @@ main #about-us {
     #services .bg-layer {
         margin: 0;
         padding: 0;
+        background-color: rgba(000, 000, 000, 0.6);
     }
 
     #services .bg-layer h2 {
