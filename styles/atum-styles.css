@@ -753,7 +753,12 @@ main #about-us {
         overflow: hidden;
     }
 
-
+    #services {
+        background-image: url('/AtumTheCreator/images/mobileServiceBg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     #services .bg-layer {
         margin: 0;
