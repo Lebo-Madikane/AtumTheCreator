@@ -921,4 +921,19 @@ main #about-us {
         padding-left: 5px;
     }
 
+     #contact-us .contact-us-container .contact-list-2 {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    #contact-us .contact-us-container .contact-list-2 li .contact-text {
+        font-size: 0.80em;
+        text-decoration: none;
+        list-style: none;
+        color: #c1c1c1;
+    }
+
 }
